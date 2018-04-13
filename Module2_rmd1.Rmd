@@ -3,9 +3,9 @@ title: "Module 2-R Markdown Document 1"
 author: "Monica Cortinas"
 date: "April 13, 2018"
 output:
-  html_document: default
   word_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -120,3 +120,23 @@ knitr::kable(head(cars),
 
 $$ Y=\beta_0+\beta_1x $$
 
+## Images
+
+Here is an image inserted
+
+![sunstar](images/sunstar.png)
+
+## Insert an Animated gif and a Video
+
+![sunstar](images/sunstar.gif)
+
+![sunstar](images/sunstar.mp4)
+
+## Footnotes
+
+Here is a footnote reference [^1] and we can add another [^longfootnote]
+
+Now let's try inline note. Here is an inline footnote ^[inline notes are easier to write]
+
+[^1]: here is the footnote
+[^longfootnote]: here is the long one
