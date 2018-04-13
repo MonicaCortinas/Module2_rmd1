@@ -3,9 +3,9 @@ title: "Module 2-R Markdown Document 1"
 author: "Monica Cortinas"
 date: "April 13, 2018"
 output:
-  word_document: default
-  pdf_document: default
   html_document: default
+  pdf_document: default
+  word_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -128,7 +128,6 @@ Here is an image inserted
 
 ## Insert an Animated gif and a Video
 
-![sunstar](images/sunstar.gif)
 
 ![sunstar](images/sunstar.mp4)
 
